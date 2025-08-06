@@ -1,5 +1,6 @@
 {
-  "version": "1.1",
-  "firmware_url": "https://zamaam.github.io/ESP32_OTA_Update/firmware/OTA_Sketch.bin",
-  "release_notes": "Bug fixes and performance improvements"
+  "version": "1.0.0",
+  "firmware_url": "https://zamvak.github.io/OTA-Binaries/Firmwares/firmware_v1.0.0.bin",
+  "release_notes": "Initial version with groundwork for OTA firmware updates. Includes feature to check for new versions and print the details on the serial monitor.",
+  "release_date": "2023-10-01"
 }
