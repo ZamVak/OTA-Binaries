@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "firmware_url": "https://zamvak.github.io/OTA-Binaries/Firmwares/firmware_v1.0.0.bin",
+  "version": "1.1.0",
+  "firmware_url": "https://zamvak.github.io/OTA-Binaries/Firmwares/firmware_v1.1.0.bin",
   "release_notes": "Initial version with groundwork for OTA firmware updates. Includes feature to check for new versions and print the details on the serial monitor.",
   "release_date": "07-08-2025"
 }
