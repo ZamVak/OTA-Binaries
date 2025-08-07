@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.1.0",
+  "latest_version": "1.1.1",
   "firmwares": [
     {
       "version": "1.1.1",
@@ -19,7 +19,7 @@
       "version": "1.1.0",
       "url": "https://zamvak.github.io/OTA-Binaries/Firmwares/firmware_v1.1.0.bin",
       "release_notes": "Completed OTA firmware update functionality.",
-      "release_date": "07-08-2025",
+      "release_date": "07-08-2history025",
       "stage": "unstable",
       "mandatory": true,
       "changelog": {
