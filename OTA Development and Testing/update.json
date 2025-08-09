@@ -3,7 +3,7 @@
   "firmwares": [
     {
       "version": "1.1.1",
-      "url": "https://zamvak.github.io/OTA-Binaries/Firmwares/firmware_v1.1.1.bin",
+      "url": "https://zamvak.github.io/OTA-Binaries/OTA%20Development%20and%20Testing/Firmwares/firmware_v1.1.1.bin",
       "release_notes": "Refactored the JSON parsing for the updated update.json file.",
       "release_date": "07-08-2025",
       "stage": "testing",
@@ -17,9 +17,9 @@
 
     {
       "version": "1.1.0",
-      "url": "https://zamvak.github.io/OTA-Binaries/Firmwares/firmware_v1.1.0.bin",
+      "url": "https://zamvak.github.io/OTA-Binaries/OTA%20Development%20and%20Testing/Firmwares/firmware_v1.1.0.bin",
       "release_notes": "Completed OTA firmware update functionality.",
-      "release_date": "07-08-2history025",
+      "release_date": "07-08-2025",
       "stage": "unstable",
       "mandatory": true,
       "changelog": {
@@ -33,7 +33,7 @@
 
     {
       "version": "1.0.0",
-      "url": "https://zamvak.github.io/OTA-Binaries/Firmwares/firmware_v1.0.0.bin",
+      "url": "https://zamvak.github.io/OTA-Binaries/OTA%20Development%20and%20Testing/Firmwares/firmware_v1.0.0.bin",
       "release_notes": "Initial version with groundwork for OTA firmware updates.",
       "release_date": "07-08-2025",
       "stage": "stable",
