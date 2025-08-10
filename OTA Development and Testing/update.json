@@ -1,12 +1,28 @@
 {
-  "latest_version": "1.1.2",
+  "latest_version": "1.2.0",
   "firmwares": [
+    {
+      "version": "1.2.0",
+      "url": "https://zamvak.github.io/OTA-Binaries/OTA%20Development%20and%20Testing/Firmwares/firmware_v1.2.0.bin",
+      "release_notes": "Added the feature of Dynamic Wi-Fi Credentials",
+      "release_date": "10-08-2025",
+      "stage": "testing",
+      "mandatory": true,
+      "changelog": {
+        "added": [
+          "Dynamic Wi-Fi Credentials feature added",
+          "The system now supports dynamic Wi-Fi credentials, allowing users to reset Wi-Fi credentials via serial monitor input",
+          "The user-entered Wi-Fi credentials are now stored in non-volatile memory using 'Preferences.h' so as to retain them even after power loss or restart."
+        ]
+      }
+    },
+
     {
       "version": "1.1.2",
       "url": "https://zamvak.github.io/OTA-Binaries/OTA%20Development%20and%20Testing/Firmwares/firmware_v1.1.2.bin",
       "release_notes": "Fixed the HTTP error code -5 during firmware download.",
       "release_date": "10-08-2025",
-      "stage": "testing",
+      "stage": "stable",
       "mandatory": true,
       "changelog": {
         "fixed": [
