@@ -1,6 +1,32 @@
 {
-  "latest_version": "1.3.0",
+  "latest_version": "1.4.0",
   "firmwares": [
+    {
+      "version": "1.4.0",
+      "url": "https://zamvak.github.io/OTA-Binaries/OTA%20Development%20and%20Testing/Firmwares/firmware_v1.4.0.bin",
+      "release_notes": "Added Auto Update and Improved WiFi Stability along with some bug fixes and enhancements",
+      "release_date": "19-08-2025",
+      "stage": "stable",
+      "mandatory": true,
+      "changelog": {
+        "added": [
+          "Auto Check for updates after regular intervals has been implemented with default check Interval of 10 minutes.",
+          "The user can set the Update check interval through the serial monitor using command-> setUpdateInterval <minutes> where minutes are valid from 1 to 1440. These changes are retained in the NVS using 'Preferences'.",
+          "The System also runs the Update Check process each time the WiFi connection is re-established.",
+          "Added WiFi.onEvent() for better WiFi Events handling, allowing system to retry connection as soon as WiFi disconnects."
+        ],
+        "fixed": [
+          "Fixed the issue where the system was failing to start WiFi rescan process after losing connection which was resulting in infinite connection loss."
+        ],
+        "improved": [
+          "The system tracks the duration for which the WiFi is disconnected and last connection retry was attempted, if no retries are detected within a certain timeframe, the system will automatically restart WiFi therefore restarting the scanning process.",
+          "The system now turns off LocalOTA for the time when Github OTA processes are taking place therefore ensuring no OTA clashes occur.",
+          "The system now does 2 additional continuous retry attempts at 300ms, 600ms delay in case it fails to fetch JSON on the 1st attempt during the Update Check process.",
+          "The Code has been modularized into functions for better readability and maintainability."
+        ]
+      }
+    }, 
+
     {
       "version": "1.3.0",
       "url": "https://zamvak.github.io/OTA-Binaries/OTA%20Development%20and%20Testing/Firmwares/firmware_v1.3.0.bin",
@@ -23,7 +49,7 @@
       "url": "https://zamvak.github.io/OTA-Binaries/OTA%20Development%20and%20Testing/Firmwares/firmware_v1.2.0.bin",
       "release_notes": "Added the feature of Dynamic Wi-Fi Credentials",
       "release_date": "10-08-2025",
-      "stage": "stable",
+      "stage": "testing",
       "mandatory": true,
       "changelog": {
         "added": [
